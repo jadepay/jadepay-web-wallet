@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 	/* open wallet code */
 
-	var explorer_tx = "http://explorer.jadepay.org/tx/"
-	var explorer_addr = "http://explorer.jadepay.org/address/"
-	var explorer_block = "http://explorer.jadepay.org/block/"
+	var explorer_tx = "http://explorer.jadepay.org:8600/tx/"
+	var explorer_addr = "http://explorer.jadepay.org:8600/address/"
+	var explorer_block = "http://explorer.jadepay.org:8600/block/"
 
 	$("#openBtn").click(function(){
 		var email = $("#openEmail").val().toLowerCase();
